@@ -3,8 +3,6 @@
 # GNU General Public License v3.0
 
 require 'ruby2d'
-STDOUT.sync = true
-on :key_down do |k| exit! 0 if k.key == 'escape' end
 
 module Ruby2D
 	def change_colour=(colour)
